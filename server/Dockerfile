@@ -16,7 +16,7 @@ ARG APP_DIR=app
 RUN mkdir -p ${APP_DIR}
 WORKDIR ${APP_DIR}
 
-COPY --from=build ${APP_DIR}/dist ./dist
+COPY --from=build ${APP_DIR}/build ./build
 COPY --from=build ${APP_DIR}/node_modules ./node_modules
 COPY --from=build ${APP_DIR}/package.json .
 
