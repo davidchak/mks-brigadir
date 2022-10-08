@@ -1,5 +1,4 @@
 # mks-brigadir
-Android app + NodeJS backend
 
 ## TODO: add script to build self-signed nginx sert
 
